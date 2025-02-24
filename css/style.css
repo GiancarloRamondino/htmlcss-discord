@@ -9,6 +9,11 @@ header{
     background-color: rgb(37, 94, 233);
 }
 
+.botton1{
+    border-radius:25px;
+    padding: 5px;
+}
+
 .b-image-jumbo{
     background-image: url(../img/jumbo.png);
     background-size: 100% 100%;
@@ -46,6 +51,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     align-content: space-around;
+    padding: 80px;
 }
 
 .content3{
@@ -72,51 +78,63 @@ header{
 /*quinto*/
 
 .container-orizzontal{
-    height: 800px;
     display: flex;
     flex-wrap: wrap;
     align-content: space-around;
+    padding: 80px;
 }
 
 .content5{
     width: 80%;
-    border: dotted black;
     height: 80%;
-    background-color: skyblue;
+}
+
+.backimage-text{
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 /*sesto*/
 .content6{
     width: 30%;
-    border: dotted black;
     height: 80%;
     margin: 0;
+    padding: 20px;
 }
 
 .content7{
     width: 50%;
-    border: dotted black;
     height: 80%;
     margin: 0;
     display: flex;
+    padding: 20px;
 }
 
 .container-orizzontal2{
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    flex-wrap: wrap;
-    align-items: flex-start;
     padding-top: 10px;
+    margin-left: 10%;
+    display: inline-flex;
+    padding-top: 10px;
+    width: 80%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /*max-width: 1200px;*/
+    align-items: center;
+    justify-content: center;
 }
 
 .max-wid{
     width: 25%;
     height: 99%;
     margin: 0;
-    border: dotted white;
 }
+
+.font-image1{
+    font-size: 10px;
+}
+
 
 /*footer*/
 
@@ -154,6 +172,10 @@ footer{
     margin-left: 0;
 }
 
+.padding-botton{
+    padding-bottom: 100px;
+}
+
 .t-right{
     text-align: right;
 }
@@ -164,10 +186,16 @@ footer{
 
 .t-left{
     text-align: left;
+    
 }
 
 .d-flex{
     display: flex;
+}
+
+.d-flex1{
+    display: inline-flex;
+    align-items: center;
 }
 
 .flex-wrap{
@@ -183,23 +211,32 @@ footer{
     padding:10px;
 }
 
+.sizefont-35{
+    font-size:35px;
+    padding:10px;
+}
+
 .sizefont-45{
     font-size:45px;
-    padding: 30px;
+    padding: 10px;
 }
 
 
+
 .botton{
-    border-radius: 15px;
+    border-radius: 25px;
     padding: 10px;
+    margin: 10px
 }
 
 .text{
     justify-content: center;
-    display: grid
+    display: grid;
 }
 
-
+.list-s{
+    list-style: none;
+}
 
 
 /*colors*/
@@ -250,7 +287,7 @@ footer{
 }
 
 .bcolor-grey{
-    background-color: grey;
+    background-color: rgb(228, 225, 225);
 }
 
 .bcolor-black{
@@ -259,4 +296,12 @@ footer{
 
 .color-white{
     color: white;
+}
+
+.bcolor-header-blu{
+    background-color: rgb(98, 140, 247);
+}
+
+.color-header-blu{
+    color: rgb(98, 140, 247);
 }
