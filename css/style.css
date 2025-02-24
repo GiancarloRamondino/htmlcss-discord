@@ -1,7 +1,7 @@
 *{
     margin: 0 auto;
     padding: 0;
-    box-sizing: border-box-box;
+    box-sizing: border-box;
 }
 
 /*header*/
@@ -25,7 +25,6 @@ header{
 .content1{
     width: 20%;
     height: fit-content;
-
 }
 
 .content-left-right{
@@ -44,7 +43,6 @@ header{
 
 /*primo 1*/
 .container-orizzontal1{
-    height: 400px;
     display: flex;
     flex-wrap: wrap;
     align-content: space-around;
@@ -52,9 +50,8 @@ header{
 
 .content3{
     width: 60%;
-    border: dotted black;
     height: 80%;
-    background-color: violet;
+    padding: 20px;
 }
 
 
@@ -62,16 +59,14 @@ header{
 
 .content2{
     width: 50%;
-    border: dotted black;
     height: 80%;
-    background-color: skyblue;
+    padding: 20px;
 }
 
 .content4{
     width: 30%;
-    border: dotted black;
     height: 80%;
-    background-color: pink; 
+    padding: 20px;
 }
 
 /*quinto*/
@@ -183,16 +178,26 @@ footer{
     font-family: Atkinson+Hyperlegible+Next;
 }
 
-.sizefont-15{
+.sizefont-25{
     font-size:25px;
-    padding: 2px;
+    padding:10px;
 }
+
+.sizefont-45{
+    font-size:45px;
+    padding: 30px;
+}
+
 
 .botton{
     border-radius: 15px;
     padding: 10px;
 }
 
+.text{
+    justify-content: center;
+    display: grid
+}
 
 
 
@@ -249,13 +254,9 @@ footer{
 }
 
 .bcolor-black{
-    background-color: rgb(48, 47, 47);
+    background-color: rgb(32, 32, 32);
 }
 
 .color-white{
     color: white;
-}
-
-.color-black{
-    color: black;
 }
