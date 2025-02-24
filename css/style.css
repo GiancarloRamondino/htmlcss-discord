@@ -210,7 +210,8 @@ li{
 }
 
 .font-atkhinson{
-    font-family: Atkinson+Hyperlegible+Next;
+    font-family: "Atkinson Hyperlegible Next", serif;
+    font-optical-sizing: auto;
 }
 
 .sizefont-25{
