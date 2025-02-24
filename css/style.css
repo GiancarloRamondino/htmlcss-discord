@@ -139,7 +139,6 @@ header{
 
 footer{
     height: 100px;
-    margin-top: 5px;
     display: flex;
     align-content: flex-end;
     flex-wrap: wrap;
@@ -152,6 +151,8 @@ footer{
     justify-content: space-between;
     align-content: center;
     flex-wrap: wrap;
+    border-top: solid 2px rgb(98, 140, 247);
+    
 }
 
 
