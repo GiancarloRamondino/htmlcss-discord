@@ -6,22 +6,33 @@
 
 /*header*/
 header{
-    background-color: skyblue;
+    background-color: rgb(37, 94, 233);
+}
+
+.b-image-jumbo{
+    background-image: url(../img/jumbo.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
 }
 
 .content{
     width: 30%;
-    border: dotted black;
     line-height: normal;
-    height: fit-content;
+    padding: 10px;
 }
 
 .content1{
+    width: 20%;
+    height: fit-content;
+
+}
+
+.content-left-right{
     width: 40%;
     border: dotted black;
     height: fit-content;
 }
-
 
 .container{
     height: 100px;
@@ -168,6 +179,22 @@ footer{
     flex-wrap: nowrap;
 }
 
+.font-atkhinson{
+    font-family: Atkinson+Hyperlegible+Next;
+}
+
+.sizefont-15{
+    font-size:25px;
+    padding: 2px;
+}
+
+.botton{
+    border-radius: 15px;
+    padding: 10px;
+}
+
+
+
 
 
 /*colors*/
@@ -223,4 +250,12 @@ footer{
 
 .bcolor-black{
     background-color: rgb(48, 47, 47);
+}
+
+.color-white{
+    color: white;
+}
+
+.color-black{
+    color: black;
 }
